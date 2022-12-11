@@ -1,7 +1,6 @@
 import { nanoid } from "nanoid";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { proxy, snapshot, useSnapshot } from "valtio";
-import { derive } from "valtio/utils";
 import "./App.css";
 
 type Item = {
